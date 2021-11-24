@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <aside class="col-lg-3 bg-light">
+        <h3 class="mt-1">Search for a city:</h3>
+        <div id="search-form">
+          <div class="form-inline form-group">
+            <input type="text" id="city-input" placeholder="Enter a city">
+            <button type="button" id="search-btn" class="btn btn-dark">Search</button>
+          </div>
+          <div>
+
+          </div>
+        </div>
+        <ul class="list-group archive"></ul>
+      </aside>
+
+      <div class="col-lg-9">
+        <div id="weather-today" class="mt-3"></div>
+        <div id="forecast" class="mt-3"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
